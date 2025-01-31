@@ -1,0 +1,245 @@
+/* Ubuntu, Ubuntu */
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono);
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+html,
+button,
+input,
+select
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+hr {
+  display: none;
+  height: 1px;
+  border: 0;
+  margin: 1rem 0;
+  padding: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+  width: 100%;
+  vertical-align: middle;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  resize: vertical;
+}
+
+blockquote {
+  margin-left: 1rem;
+  font-style: italic;
+  font-size: 1.4rem;
+  font-family: Georgia, bitstream charter, serif;
+  border-left: 3px solid;
+  padding-left: 20px;
+}
+
+blockquote cite {
+  font-size: 70%;
+  opacity: 0.8;
+}
+span {
+    display: block;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Ubuntu, raleway, sans-serif;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.container {
+  max-width: 800px;
+}
+
+ul {
+  padding-left: 15px;
+}
+
+ul.flat {
+  margin: 0;
+  padding: 0;
+}
+
+ul.flat li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 0;
+}
+
+ul {
+  list-style: disc inside;
+}
+
+.publication p {
+  font-size: 14px;
+  margin-block-start: 0.8em;
+  margin-block-end: 0.8em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.wrapper {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.header {
+  display: flow-root;
+}
+
+.header .profile_image {
+  display: block;
+  margin-left: auto;
+  margin-right: 20px;
+  width: 128px;
+  height: 128px;
+  border-radius: 100%;
+  float: left;
+}
+
+.header h1,
+.header h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+  line-height: 1.3em;
+}
+
+.header h2 {
+  font-size: 1.125rem;
+}
+
+.header nav {
+  margin-top: 20px;
+}
+
+.header nav ul,
+.header nav li {
+  margin: 0;
+}
+
+.header nav ul.flat {
+  padding: 0;
+}
+
+.header nav ul.flat li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 0;
+  margin-right: 10px;
+  margin-top: 10px;
+  text-transform: capitalize;
+}
+
+.header .site-affilation {
+  justify-content: space-between;
+}
+
+.header .site-affilation .li {
+  font-size: 14px;
+  display: block;
+  font-family: Ubuntu;
+}
+
+.header .site-affilation nav {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.header .site-affilation nav ul svg {
+  max-height: 15px;
+}
+
+.pub-details {
+  font-size: 14px;
+  margin-left: .9em;
+  margin-top: .1em;
+}
+
+@media (max-width: 767px) {
+  body {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  .container {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+  .header .profile_image {
+    width: auto;
+    height: auto;
+  }
+}
