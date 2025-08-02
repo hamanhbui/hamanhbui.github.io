@@ -1,8 +1,15 @@
-@inproceedings{
-bui2025varianceaware,
-title={Variance-Aware Linear {UCB} with Deep Representation for Neural Contextual Bandits},
-author={Ha Manh Bui and Enrique Mallada and Anqi Liu},
-booktitle={The 28th International Conference on Artificial Intelligence and Statistics},
-year={2025},
-url={https://openreview.net/forum?id=2cZ1xs5UUL}
+@InProceedings{pmlr-v258-bui25a,
+  title = 	 {Variance-Aware Linear UCB with Deep Representation for Neural Contextual Bandits},
+  author =       {Bui, Ha Manh and Mallada, Enrique and Liu, Anqi},
+  booktitle = 	 {Proceedings of The 28th International Conference on Artificial Intelligence and Statistics},
+  pages = 	 {4213--4221},
+  year = 	 {2025},
+  editor = 	 {Li, Yingzhen and Mandt, Stephan and Agrawal, Shipra and Khan, Emtiyaz},
+  volume = 	 {258},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {03--05 May},
+  publisher =    {PMLR},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v258/main/assets/bui25a/bui25a.pdf},
+  url = 	 {https://proceedings.mlr.press/v258/bui25a.html},
+  abstract = 	 {By leveraging the representation power of deep neural networks, neural upper confidence bound (UCB) algorithms have shown success in contextual bandits. To further balance the exploration and exploitation, we propose Neural-$\sigma^2$-LinearUCB, a variance-aware algorithm that utilizes $\sigma^2_t$, i.e., an upper bound of the reward noise variance at round $t$, to enhance the uncertainty quantification quality of the UCB, resulting in a regret performance improvement. We provide an oracle version for our algorithm characterized by an oracle variance upper bound $\sigma^2_t$ and a practical version with a novel estimation for this variance bound. Theoretically, we provide rigorous regret analysis for both versions and prove that our oracle algorithm achieves a better regret guarantee than other neural-UCB algorithms in the neural contextual bandits setting. Empirically, our practical method enjoys a similar computational efficiency, while outperforming state-of-the-art techniques by having a better calibration and lower regret across multiple standard settings, including on the synthetic, UCI, MNIST, and CIFAR-10 datasets.}
 }
